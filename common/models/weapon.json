@@ -1,0 +1,73 @@
+{
+  "name": "weapon",
+  "plural": "weapons",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "durability": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "damage": {
+      "type": "number"
+    },
+    "armor": {
+      "type": "number"
+    },
+    "hit": {
+      "type": "number"
+    },
+    "vitality": {
+      "type": "string"
+    },
+    "mana": {
+      "type": "number"
+    },
+    "might": {
+      "type": "number"
+    },
+    "will": {
+      "type": "number"
+    },
+    "grace": {
+      "type": "number"
+    },
+    "protection": {
+      "type": "number"
+    },
+    "healing": {
+      "type": "number"
+    },
+    "wisdom": {
+      "type": "number"
+    },
+    "required_might": {
+      "type": "number"
+    },
+    "required_class": {
+      "type": "string"
+    },
+    "required_level": {
+      "type": "number"
+    },
+    "special_info": {
+      "type": "string"
+    },
+    "detailed_information": {
+      "type": "string"
+    },
+    "obtained": {
+      "type": "string"
+    },
+    "casts": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
